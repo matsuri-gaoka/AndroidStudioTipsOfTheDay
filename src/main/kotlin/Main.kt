@@ -1,9 +1,6 @@
-import myPackage.*
+import myPackage.* //この行がないとビルドエラーにはならない
 
 fun main(args: Array<String>) {
-    val kt = UtilKt()
-    kt.sayHello()
-//
-//    val ktSub = UtilKtSub()
-//    ktSub.sayHello()
+    println("Hello")
+//この行があるとビルドエラー
 }
