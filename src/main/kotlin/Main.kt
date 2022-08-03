@@ -1,10 +1,6 @@
-import myPackage.*
-import myPackage.Sub.UtilKtSub
+
+//import Util //←これは別にいらないみたい
 
 fun main(args: Array<String>) {
-    val kt = UtilKt()
-    kt.SayHello()
-
-    val ktsub = UtilKtSub()
-    ktsub.SayHello()
+    val javaUtil = Util.SayHelloJava();
 }
