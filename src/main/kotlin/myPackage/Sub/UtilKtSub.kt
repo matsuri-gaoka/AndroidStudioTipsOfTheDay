@@ -1,6 +1,6 @@
-package myPackage
+package myPackage.Sub
 
-class UtilKt {
+class UtilKtSub {
     fun SayHello(){
         println("Hello")
     }
